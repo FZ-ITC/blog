@@ -54,4 +54,4 @@ author: 作者 (可选)
 
 ## 文章发布
 
-合并 Pull Request 后，文章会自动发布到 [https://sdnuzx.github.io/blog](https://sdnuzx.github.io/blog)。
+合并 Pull Request 后，文章会自动发布到 [https://fz-itc.github.io/blog](https://fz-itc.github.io/blog)。
