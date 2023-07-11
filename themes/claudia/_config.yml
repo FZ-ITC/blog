@@ -1,0 +1,72 @@
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Archive: /archives
+
+widgets:
+  - tag
+  - archive
+  - recent_posts
+  - category
+  - profile
+
+# social config
+social:
+  # zhihu:
+  # twitter: /
+  # facebook: /
+  # linkedin:
+  # instagram: /
+  github: FZ-ITC
+
+user:
+  name: 山师附中信息技术社
+  avatar: https://fz-itc.github.io/pic/logo-4.png
+  location: 雾城
+  description: 山东师范大学附属中学信息技术社的博客。
+  footnotes: # footnotes
+
+# documents: https://github.com/utterance/utterances
+# API config: https://utteranc.es/
+comment_utteranc:
+  enable: true
+  repo: FZ-ITC/blog # your blog repo
+
+# documents: https://valine.js.org/quickstart.html
+comment_valine:
+  enable: false
+  appId:
+  appKey:
+
+comment_disqus:
+  enable: false
+  url: # the url of your website main domain like this https://xxx.xxx/
+  name: # the short name in disqus
+
+# dark
+# light
+# user-can-set
+appearance: auto # Default value is auto
+
+# Miscellaneous
+favicon: https://fz-itc.github.io/pic/logo-3.ico
+
+friend_links:
+  - title: 山师附中信息技术社
+    link: https://www.github.com/FZ-ITC
+  - title: 山东师范大学附属中学
+    link: http://www.fuzhong.sdnu.edu.cn
+
+# Google Analytics
+ga_track_id:
+ga_domain:
+
+# Baidu Analytics
+ba_track_id:
+
+# picture of about page
+about_pic: about.png
+
+image_zoom:
+  enable: true
