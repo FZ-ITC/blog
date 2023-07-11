@@ -22,7 +22,6 @@ jobs:
         npm install hexo-filter-flowchart        
         # Math
         npm install hexo-renderer-mathjax
-        run: npm ci
         hexo generate
 
       - name: deploy
