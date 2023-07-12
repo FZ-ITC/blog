@@ -48,7 +48,10 @@
   border: 1px solid var(--border-line-color);
   border-radius: 4px;
 }
-.post-page .post-content figure.highlight table td.gutter {
+.post-page .post-content figure.highlight table tr {
+  display: flex;
+}
+.post-page .post-content figure.highlight table tr td.gutter {
   padding: 9px 0 9px 9px;
   font-size: 16px;
   line-height: 21px;
@@ -56,19 +59,19 @@
   white-space: nowrap;
   width: min-content;
 }
-.post-page .post-content figure.highlight table td.gutter pre {
+.post-page .post-content figure.highlight table tr td.gutter pre {
   color: var(--second-text-color);
   padding: 7px 0.5em 0 0;
 }
-.post-page .post-content figure.highlight table td.code {
+.post-page .post-content figure.highlight table tr td.code {
   padding-left: 0;
   overflow: auto;
 }
-.post-page .post-content figure.highlight table pre {
+.post-page .post-content figure.highlight table tr pre {
   padding: 0;
   background: transparent;
 }
-.post-page .post-content figure.highlight table pre code {
+.post-page .post-content figure.highlight table tr pre code {
   background: transparent;
 }
 .post-page .post-content .hljs {
