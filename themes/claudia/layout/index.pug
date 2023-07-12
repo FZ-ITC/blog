@@ -2,6 +2,9 @@ extends widget/base
 
 block append head
     link(rel='stylesheet', href= url_for("/style/widget-post-list.css"))
+    link(rel='stylesheet', href= url_for("/style/index.css"))
+    script(src=url_for("/js/jquery-3.6.1.min.js"))
+    script(src=url_for("/js/index.js"))
 
 block content
     include widget/widget-post-list
