@@ -51,4 +51,9 @@ pre .copy-code:focus {
     -o-transition: none;
   }
 }
-/* For code view */
+
+@media screen and (max-width: 767px) {
+  .copy-code {
+    opacity: 1;
+  }
+}
