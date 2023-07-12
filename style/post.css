@@ -61,7 +61,7 @@
 }
 .post-page .post-content figure.highlight table tr td.gutter pre {
   color: var(--second-text-color);
-  padding: 7px 0.5em 0 0;
+  padding: 8px 0.5em 0 0;
 }
 .post-page .post-content figure.highlight table tr td.code {
   padding-left: 0;
