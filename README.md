@@ -1,10 +1,10 @@
 # Blog
 
-**请 unwatch 本仓库的Issues！**
+**请 unwatch 本仓库的 Issues！**
 
-**请 unwatch 本仓库的Issues！**
+**请 unwatch 本仓库的 Issues！**
 
-**请 unwatch 本仓库的Issues！**
+**请 unwatch 本仓库的 Issues！**
 
 **重要的事情说三遍！**
 
@@ -12,7 +12,7 @@
 
 本仓库是山东师范的大学附属中学信息技术社的博客仓库，用于发布社团的一些活动和成员的一些文章。
 
-**仓库的Issue功能被用于存储文章的评论，因此请unwatch本仓库的Issues，否则会收到大量的邮件通知。**
+**仓库的 Issue 功能被用于存储文章的评论，因此请 unwatch 本仓库的 Issues，否则会收到大量的邮件通知。**
 
 ## 文章提交
 
@@ -55,3 +55,9 @@ author: 作者 (可选)
 ## 文章发布
 
 合并 Pull Request 后，文章会自动发布到 [https://fz-itc.github.io/blog](https://fz-itc.github.io/blog)。
+
+## 文章讨论
+
+博客页面的评论功能由 [utteranc.es](https://utteranc.es) 提供，评论内容存储在本仓库的 Issues 中。
+
+发表评论时，请使用本人的 GitHub 账号登录并发表评论。
