@@ -75,45 +75,46 @@ $lineColor: var(--border-line-color);
       table
       {
         width: 100%;
-        // padding: 15px;
         background: var(--third-bg-color);
         table-layout: fixed;
         border: 1px solid $lineColor;
         border-radius: 4px;
 
-        td.gutter
+        tr
         {
-          padding: 9px 0 9px 9px;
-          font-size: 16px;
-          line-height: 21px;
-          text-align: right;
-          white-space: nowrap;
-          width: min-content;
+          display: flex;
+
+          td.gutter
+          {
+            padding: 9px 0 9px 9px;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: right;
+            white-space: nowrap;
+            width: min-content;
+
+            pre
+            {
+              color: var(--second-text-color);
+              padding: 7px 0.5em 0 0;
+            }
+          }
+
+          td.code
+          {
+            padding-left: 0;
+            overflow: auto;
+          }
 
           pre
           {
-            color: var(--second-text-color);
-            padding: 7px 0.5em 0 0;
-          }
-        }
-
-        td.code
-        {
-          padding-left: 0;
-          overflow: auto;
-        }
-
-        pre
-        {
-          padding: 0;
-          background: transparent;
-
-          code
-          {
-            // padding: 15px;
-            // border: 1px solid $lineColor;
-            // background: var(--pre-code-bg-color);
+            padding: 0;
             background: transparent;
+
+            code
+            {
+              background: transparent;
+            }
           }
         }
       }
