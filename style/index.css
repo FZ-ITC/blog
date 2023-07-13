@@ -1,3 +1,19 @@
+.post-container img.avatar-dark,
+.post-container img.avatar-light,
+.post-container img.avatar-all {
+  aspect-ratio: 1/1;
+}
+.post-container img.avatar-dark {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  .post-container img.avatar-dark {
+    display: block;
+  }
+  .post-container img.avatar-light {
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
   .post-container .friend-widget,
   .post-container .tag-widget,
