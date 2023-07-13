@@ -23,6 +23,7 @@ social:
 user:
   name: 山师附中信息技术社
   avatar: https://fz-itc.github.io/pic/logo-4.png
+  avatar_dark:
   location: 雾城
   description: 山东师范大学附属中学信息技术社。
   footnotes: # footnotes

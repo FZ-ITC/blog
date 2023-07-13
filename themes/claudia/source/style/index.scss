@@ -1,5 +1,31 @@
 .post-container
 {
+
+  img.avatar-dark,
+  img.avatar-light,
+  img.avatar-all
+  {
+    aspect-ratio: 1 / 1;
+  }
+
+  img.avatar-dark
+  {
+    display: none;
+  }
+
+  @media(prefers-color-scheme: dark)
+  {
+    img.avatar-dark
+    {
+      display: block;
+    }
+
+    img.avatar-light
+    {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 768px)
   {
 
