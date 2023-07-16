@@ -151,7 +151,7 @@ Every interaction is both precious and an opportunity to delight.
 <p align="left">左对齐</p>
 
 <p align="center">
-  <img src="/images/logo.svg" alt="图片" />
+  <img src="https://fz-itc.github.io/pic/logo-4.png" alt="图片" />
 
   <br />
 
