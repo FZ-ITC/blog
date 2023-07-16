@@ -2,7 +2,7 @@
 title: 山师附中信息技术社博客今日开通
 date: 2023-07-10 00:00:00
 tags:
-  - Hello, world!
+  - Hello-world
 ---
 
 # 山师附中信息技术社博客今日开通
